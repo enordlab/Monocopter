@@ -1,0 +1,40 @@
+.tube {
+  position: absolute;
+  width: 110px;
+  height: 800px;
+  border-color: #ffffff;
+  border-width: thin;
+  border-style: solid;
+}
+
+.drone {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  margin: -50px 0 0 -50px;
+  background: #000000;
+  /* border-radius: 50%; */
+  backface-visibility: hidden;
+}
+
+
+.cylinder {
+  position: absolute;
+  transform: rotateX(70deg);
+}
+
+.ellipse {
+  position: absolute;
+  width: 110px;
+  height: 100px;
+  opacity: 0.1;
+  border-radius: 50px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 110px;
+  height: 1600px;
+  opacity: 0.2;
+  border-radius: 50px;
+}
